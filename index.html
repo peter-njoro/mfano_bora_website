@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mfano Bora Award Participation</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <img src="assets/mfano-bora-logo.png" alt="Mfano Bora Logo" class="logo-left">
+            <div>
+                <h1 class="lead-text">Welcome To Mfano Bora Award Participation</h1>
+                <p class="subtitle">Join us in celebrating excellence in transport and logistics</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="form-container">
+        <h2>6th National Small & Medium Transport & Logistics Awards 2025</h2>
+        <form id="awardForm">
+            <label>Company Name</label>
+            <input type="text" name="companyName" placeholder="Enter company name" required>
+
+            <label>Address</label>
+            <input type="text" name="address" placeholder="Enter company address" required>
+
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Enter contact email" required>
+
+            <label>Phone</label>
+            <input type="tel" name="phone" placeholder="Enter phone number" required>
+
+            <label>Name of Person Receiving the Award</label>
+            <input type="text" name="recipient" placeholder="Enter recipient's full name" required>
+
+            <h3>Benefits</h3>
+            <ul>
+                <li>Exhibition space to display your merchandise</li>
+                <li>2 free pages in our e-magazine</li>
+                <li>Two free dinner tickets</li>
+                <li>Personalized trophy presented at the event</li>
+                <li>Winners certificate presented at the event</li>
+                <li>Introduce your goods/services (5 min on request)</li>
+                <li>Display two roll-up banners</li>
+                <li>Networking and business hook-up</li>
+            </ul>
+
+            <p class="fee-note">Event participation fee: <strong>KES 49,500</strong><br>
+                (Discounted from KES 75,000 as a first-time winner)</p>
+
+            <label>Upload Company Sign and Stamp Document</label>
+            <input type="file" name="signStampFile" accept=".pdf,.png,.jpg,.jpeg" required>
+
+            <div class="button-container">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+        <div id="confirmation" class="confirmation-message" style="display:none;">
+            Thank you for submitting your participation form!
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Mfano Bora. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
